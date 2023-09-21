@@ -1,0 +1,122 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+    font-family: sans-serif;
+    height: 100vh;
+    background: url(../image/cold.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#wrap{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to top, rgba(0,0,0,1), rgba(0,0,0,0.4));
+}
+.hot{
+    background: url(../image/hot.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.cold{
+    background: url(../image/cold.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.cold #weather{
+    background: url(../image/cold.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.hot #weather{
+    background: url(../image/hot.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#weather{
+    width: 350px;
+    height: 450px;
+    border-radius: 10px;
+    text-align: center;
+    background: url(../image/cold.png) no-repeat center/cover;
+}
+.search{
+    margin-top: 10px;
+    width: 90%;
+    height: 40px;
+    border-radius: 0 15px 0 15px;
+    border: none;
+    outline: none;
+    background: rgba(255,255,255,0.3);
+    box-shadow: 0 5px 4px rgba(0,0,0,0.2);
+    transition: 0.4s;
+}
+
+.search:focus{
+    background: rgba(255,255,255,0.7);
+    border-radius: 15px 0 15px 0;
+}
+
+.content{
+    text-align: center;
+    color: white;
+    margin: 35px 0;
+    transition: 0.4s;
+}
+.capital{
+    text-shadow: 2px 2px rgba(0,0,0,0.5);
+}
+.time{
+    margin: 8px 0;
+    font-size: 14px;
+}
+.temperature{
+    margin-left: 88px;
+    margin-top: 20px;
+    width: 170px;
+    height: 100px;
+    background: rgba(255,255,255,0.3);
+    border-radius: 10px;
+    border: none;
+    padding: 15px;
+    box-shadow: 2px 2px rgba(0,0,0,0.3);
+}
+.temperature>span{
+   
+    font-size: 50px;
+    text-shadow: 1.5px 1.5px rgba(0,0,0,0.3);  
+}
+
+.description{
+    font-size: 40px;
+    margin-top: 10px;
+    text-shadow: 2px 2px rgba(0,0,0,0.4);
+}
+.more{  
+    margin-top: 10px; 
+    display: flex;
+}
+.more div{
+    margin: 15px 30px;
+    display: flex;
+    flex-direction: column;
+}
+.visibility>span{
+    margin-top: 10px;
+}
+.wind>span{
+    margin-top: 10px;
+}
+.sun>span{
+    margin-top: 10px;
+}
+
+.hide{
+    display: none;
+}

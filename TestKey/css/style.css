@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body{
+    background: #17a2b8;
+    display: flex;  
+    width: 100%;
+    height: 100vh;
+}
+.enter{
+    width: 200px;
+    height: 45px;
+    font-weight: 500;
+    color: #17a2b8;
+    font-size: 25px;
+    border-radius: 7px;
+    text-align: center;
+    padding-bottom:3px ;
+    background-color: white;
+    border: none;
+    position: absolute;
+		  left: 50%;
+		  top: 50%;
+		  transform: translate(-50%, -50%);
+    cursor: pointer;
+}
+.wrapper{
+    text-align: center; 
+    width: 100%;
+    height: 400px;  
+}
+.round{
+    background-color: aliceblue;
+    text-align: center;
+    padding-top: 30px;
+    width: 135px;
+    height: 135px;
+    color: aliceblue;
+    font-size: 60px;
+    border-radius: 100%;
+    display: inline-block;  
+    margin:80px 0 0 auto;  
+    border: 4px solid white;
+    background-color: #17a2b8;
+    overflow: hidden;
+}
+.tag{
+    width: 100%;
+    height: 50px;
+    text-align: center;
+}
+.card p:first-child {
+	background-color: #78c0c9;
+    height: 25px;
+	color: white;
+}
+.key, .location, .which, .code{
+    text-align: center;
+    float:left;
+    width: 180px;
+    height: 60px;   
+    background-color: white;  
+    margin-left: 30px;
+    margin-top: 40px;
+    border-radius: 5px;
+    overflow: hidden;
+    display:inline-block;
+    
+}
+.card p:last-child {
+	text-transform: capitalize;
+}
+.hide{
+    display: none;
+}
+
+
+

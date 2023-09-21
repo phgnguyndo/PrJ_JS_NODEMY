@@ -1,0 +1,59 @@
+body{
+    background-image: linear-gradient(to right, #4daf54, #3d8880);
+}
+.background{
+    display: flex;
+    height: 100vh;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+}
+
+.box{   
+    height: 30px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border: none;
+    cursor: pointer;
+    background-color: black;
+    opacity: 0.8;
+    color: antiquewhite;
+    overflow: hidden;
+    width: 0;
+    transition: 0.5s;
+    padding: 0;
+    transition-property: width opacity;
+    transition-delay: 0.001s 0.5s;
+    opacity: 0;
+}
+.search{
+    margin-top: 4.5px;
+    width: 15px;
+    height: 15px;
+    border-radius: 5px;  
+} 
+button{
+    /* border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px; */
+    border-radius: 5px;
+    border: none;
+    width: 30px;
+    height: 30px;
+    border: none;
+    cursor: pointer;
+    background-color: antiquewhite;
+}
+.searchBox{
+    display: flex;
+}
+.searchBox.T-show>button{
+    border-radius: 0px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.searchBox.T-show>.box{
+    opacity: 1;
+    width: 140px;
+}
+

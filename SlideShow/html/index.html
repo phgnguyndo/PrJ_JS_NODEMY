@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Slide Show</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+    <div class="wrapper">       
+        <div class="imageShow">
+            <img id="empty" src="../image/1.jpeg">
+            <button class="pre" onclick="Preve()">
+                <ion-icon name="arrow-dropleft"></ion-icon>
+            </button>
+            <button class="next" onclick="Next()">
+                <ion-icon name="arrow-dropright"></ion-icon>
+            </button>
+        </div>          
+        <div class="imageSmall">
+            <img class="image" src="../image/1.jpeg"/>
+            <img class="image" src="../image/hinh-anh-hoa-phong-lan.jpg" />
+            <img class="image" src="../image/hoa-ky-la-19.jpg" />
+            <img class="image" src="../image/img2.jpeg" />
+            <img class="image" src="../image/cay cảnh.jpg" />
+        </div>
+    </div>
+    
+    <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+    <script src="../js/app.js"></script>
+</body>
+</html>
